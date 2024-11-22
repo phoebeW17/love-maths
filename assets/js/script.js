@@ -15,9 +15,13 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 })
-
+/**
+ * The mian game "loop", called when the script is first loaded
+ * and after the user's answer has been processed
+ */
 function runGame() {
-
+    letnum1 = Math.floor(Math.random() * 25) + 1;
+    letnum2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
